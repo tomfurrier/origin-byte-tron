@@ -28,8 +28,8 @@ public class OnChainPlayer : MonoBehaviour
             {
                 if (!_activatedRenderer && playerState.SequenceNumber > 0)
                 {
-                    trailRendererParent.gameObject.SetActive(true);
-                    _activatedRenderer = true;
+                    //trailRendererParent.gameObject.SetActive(true);
+                    //_activatedRenderer = true;
                 }
                 
                 var onChainPosition = playerState.Position.ToVector2();
